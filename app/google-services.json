@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "600052310985",
+    "firebase_url": "https://projeodevi-60497.firebaseio.com",
+    "project_id": "projeodevi-60497",
+    "storage_bucket": "projeodevi-60497.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:600052310985:android:51faa8668f84ca9a",
+        "android_client_info": {
+          "package_name": "com.parkhelp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "600052310985-ai3heuin0a1g0e33r0lumhs9m64nuvdt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.parkhelp",
+            "certificate_hash": "49c6dab47d3b0c6e10d61c14ec9788ea4df4b220"
+          }
+        },
+        {
+          "client_id": "600052310985-e82gcbrmr526lrc7ldgafs45alk1qaj4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZlF2sumA1mP_-2JTLwQNFyaz1ZUck1a8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "600052310985-e82gcbrmr526lrc7ldgafs45alk1qaj4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

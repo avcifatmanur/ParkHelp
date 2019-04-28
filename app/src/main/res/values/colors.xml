@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="acikpembe">#edd9c1</color>
+    <color name="acikmavi">#c7d8c6</color>
+    <color name="beyaz">#ffffff</color>
+    <color name="siyah">#000000</color>
+    <color name="light">#FFD6C0A7</color>
+    <color name="actionbar_opacity">#33000000</color>
+    <color name="lightgrey">#FFBFBFB0</color>
+    <color name="red">#FF8C0820</color>
+</resources>

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@drawable/oval_background"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/userImagelayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/_5sdp">
+
+            <ProgressBar
+                android:id="@+id/registerProgresBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:indeterminate="true"
+                android:visibility="invisible"
+                android:layout_weight="1" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/resimYukle"
+                android:layout_width="@dimen/_55sdp"
+                android:layout_height="@dimen/_55sdp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/_7sdp"
+                android:layout_marginTop="@dimen/_7sdp"
+                android:src="@drawable/camera_1_512" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/usernamelayout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:padding="@dimen/_5sdp">
+
+            <ImageView
+                android:id="@+id/imgperson"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:backgroundTint="@color/siyah"
+                android:padding="@dimen/_5sdp"
+                android:src="@drawable/person_outline" />
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/edtname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:hint="Kullanıcı Adı:"
+                android:imeOptions="actionDone"
+                android:inputType="textPersonName"
+                android:paddingLeft="@dimen/_10sdp"
+                android:paddingRight="@dimen/_20sdp"
+                android:textColor="@color/siyah"
+                android:textColorHint="@color/siyah"
+                android:textColorLink="@color/siyah"
+                android:textSize="@dimen/_12sdp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:background="@color/lightgrey" />
+
+        <LinearLayout
+            android:id="@+id/phonelayout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:padding="@dimen/_5sdp">
+
+            <ImageView
+                android:id="@+id/imgmail"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="73dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:backgroundTint="@color/siyah"
+                android:padding="@dimen/_3sdp"
+                android:src="@drawable/mailss" />
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/edtmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="E-mail:"
+                android:imeOptions="actionDone"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="@dimen/_17sdp"
+                android:paddingRight="@dimen/_20sdp"
+                android:textColor="@color/siyah"
+                android:textColorHint="@color/siyah"
+                android:textColorLink="@color/siyah"
+                android:textSize="@dimen/_12sdp" />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:background="@color/lightgrey" />
+
+        <LinearLayout
+            android:id="@+id/passwordlayout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:padding="@dimen/_5sdp">
+
+            <ImageView
+                android:id="@+id/imgphone"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:tint="@color/siyah"
+                android:padding="@dimen/_3sdp"
+                android:src="@drawable/phone" />
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/edtphone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="Telefon:"
+                android:imeOptions="actionDone"
+                android:inputType="phone"
+                android:paddingLeft="@dimen/_10sdp"
+                android:paddingRight="@dimen/_20sdp"
+                android:textColor="@color/siyah"
+                android:textColorHint="@color/siyah"
+                android:textColorLink="@color/siyah"
+                android:textSize="@dimen/_12sdp" />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:background="@color/lightgrey" />
+
+        <LinearLayout
+            android:id="@+id/password2layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:padding="@dimen/_5sdp">
+
+            <ImageView
+                android:id="@+id/imgpasw"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:padding="@dimen/_3sdp"
+                android:src="@drawable/lock"
+                android:tint="@color/siyah" />
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/edtpasw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="Şifre"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:paddingLeft="@dimen/_10sdp"
+                android:paddingRight="@dimen/_20sdp"
+                android:textColor="@color/siyah"
+                android:textColorHint="@color/siyah"
+                android:textColorLink="@color/siyah"
+                android:textSize="@dimen/_12sdp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/btnbeyaz"
+        android:text="KAYDOL"
+        android:clickable="true"
+        android:textAllCaps="true"
+        android:textColor="@color/siyah"
+        android:textSize="@dimen/_15sdp"
+        android:textStyle="bold" />
+
+</LinearLayout>
