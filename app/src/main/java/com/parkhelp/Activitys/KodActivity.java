@@ -83,7 +83,6 @@ public class KodActivity extends BaseScannerActivity implements MessageDialogFra
     }
     @Override
     public void handleResult(Result rawResult) {
-
         try {
             Uri notification = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
             Ringtone r = RingtoneManager.getRingtone(getApplicationContext(), notification);
